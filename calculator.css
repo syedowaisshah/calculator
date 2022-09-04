@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+
+}
+body{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #ebecf0;
+
+        /* flex-direction: column; */
+        /* gap: 30px; */
+        /* background-color: #1d2b3a; */
+        
+    
+}
+.red{
+    color: #ae1100;
+
+}
+.blue
+{
+    color: dodgerblue;
+}
+.blue:hover
+{
+    color: chartreuse;
+    
+}
+
+
+button, input
+{
+    border: 0 ;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 #fff;
+    
+}
+/* input:focus{
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+} */
+button{
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out ;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+button:hover
+{
+    box-shadow: -2px -2px 5px #fff,2px 2px 5px #babecc;
+    
+}
+button:active{
+    box-shadow:inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff; 
+    
+}
+.calculator
+{
+    width: 312px;
+    padding: 29px;
+    
+    
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+
+}
+.screen input
+{   
+    font-size: 2rem;
+    padding-left: 10px;
+    margin: 5px;
+    width: 97%;
+    height: 70px;
+
+    color: #babecc;
+    text-shadow: 1px 1px 1px #fff;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance:none;
+}
+
+.clear
+{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.clear button
+{
+
+    width: 50px;
+    height: 50px;
+}
+.btn button
+{
+    width: 50px;
+    height: 50px;
+}
+.fisrt button
+{
+    padding: 5px;
+    margin: 5px;
+}
+.second button
+{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.third button
+{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.fourth button
+{
+    margin: 5px;
+    padding: 5px;
+
+}
